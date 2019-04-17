@@ -1,0 +1,44 @@
+body{
+    
+}
+header{
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+  }
+
+nav{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgb(168, 65, 65);
+}
+
+section{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgb(224, 21, 21);
+    }
+
+    article{
+        
+        padding: 20px;
+        margin-bottom: 20px;
+        background: rgb(21, 224, 21);
+    }
+
+    aside{
+        float: left;
+        width: 50%;
+        padding: 20px;
+        margin-bottom: 20px;
+        background: rgb(221, 224, 21);
+    }
+
+    footer{
+        padding: 20px;
+        margin-bottom: 20px;
+        background: rgb(221, 224, 21);
+    }
