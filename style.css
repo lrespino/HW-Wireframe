@@ -23,8 +23,10 @@ section{
     float: left;
     width: 50%;
     padding: 20px;
+    height: 50%;
     margin-bottom: 20px;
     background: rgb(224, 21, 21);
+    height: 25pc;
     }
 
     article{
@@ -33,17 +35,42 @@ section{
         margin-bottom: 20px;
         background: rgb(21, 224, 21);
     }
+ h1,h2,h3{
+    padding: 20px;
+    background: grey;
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-size: 18px;
+    
+ }
 
-    aside{
+div{
+    height: 60px;
+    overflow:auto;
+}
+
+ p{
+    padding: 20px;
+    margin: 20px;
+    background: #333
+ }
+
+ aside{
         float: left;
         width: 50%;
+        height: 25pc;
         padding: 20px;
         margin-bottom: 20px;
         background: rgb(221, 224, 21);
     }
 
-    footer{
-        
-        padding: 20px;
+ 
+
+    #footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
         background: rgb(221, 224, 21);
     }
