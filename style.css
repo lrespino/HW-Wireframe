@@ -2,39 +2,48 @@
     box-sizing: border-box;
     text-align: center;
 }
+header, nav, section, aside, footer {
+    background: #ebebeb ;
+ }
 
 body{
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;
+    font-size: 18px ;
+    margin: auto ;
+    color: #777;
+    background: #777;
 }
 header{
     padding: 20px;
-    margin-bottom: 20px;
-    color: #333;
-    background: #ccc;
+    margin-bottom: 10px;
   }
 
 nav{
     padding: 20px;
     margin-bottom: 20px;
-    background: rgb(168, 65, 65);
 }
 
 section{
     float: left;
-    width: 50%;
-    padding: 20px;
-    height: 50%;
-    margin-bottom: 20px;
-    background: rgb(224, 21, 21);
-    height: 25pc;
+    width: 495px;
+    height: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-right: 8px;
+   
     }
 
     article{
-        
-        padding: 20px;
-        margin-bottom: 20px;
-        background: rgb(21, 224, 21);
+     margin: auto;
+    overflow: auto ;
+    color: #eed0d0 ;
+    background-color: #666;
+    padding: 10% ;
+    width:90%;
+   
     }
+
  h1,h2,h3{
     padding: 20px;
     background: grey;
@@ -45,32 +54,35 @@ section{
     
  }
 
+p{
+    padding: 20px;
+    background: grey;
+    float: left;
+    width: 99%;
+    text-align: center;
+    font-size: 18px;
+}
+
 div{
     height: 60px;
     overflow:auto;
 }
 
- p{
-    padding: 20px;
-    margin: 20px;
-    background: #333
- }
+
 
  aside{
-        float: left;
-        width: 50%;
-        height: 25pc;
-        padding: 20px;
-        margin-bottom: 20px;
-        background: rgb(221, 224, 21);
+    float: left ;
+    width: 450px;
+    height: 300px;
+    margin-left: 5px;
+    margin-bottom: 10px;
     }
 
  
 
     #footer{
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background: rgb(221, 224, 21);
+        display: block ;
+        clear: both;
+        padding: 20px;
+        margin-top: 30px;
     }
